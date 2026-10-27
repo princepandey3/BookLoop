@@ -1,0 +1,51 @@
+{
+  "name": "bookloop",
+  "version": "1.0.0",
+  "author": "Princepandey3",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.16",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/datetimepicker": "9.1.0",
+    "@react-native-segmented-control/segmented-control": "2.5.7",
+    "@react-navigation/material-top-tabs": "^7.8.0",
+    "@react-navigation/native": "^7.5.0",
+    "@react-navigation/stack": "^7.12.0",
+    "expo": "~57.0.27",
+    "expo-camera": "~57.0.6",
+    "expo-constants": "~57.0.21",
+    "expo-dev-client": "~57.0.19",
+    "expo-font": "~57.0.4",
+    "expo-image-picker": "~57.0.20",
+    "expo-status-bar": "~57.0.1",
+    "firebase": "^13.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-pager-view": "8.0.2",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-uuid": "^2.0.4",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~19.2.4",
+    "typescript": "~6.0.3"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.13.6",
+    "xcode": {
+      "uuid": "^11.1.1"
+    }
+  },
+  "private": true
+}
